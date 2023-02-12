@@ -1,0 +1,153 @@
+<!DOCTYPE html><!--HTMLのバージョン宣言　必須要素⓵-->
+<html lang="ja"><!--HTMLの後にlamg=”ja”と追加することで日本語をしていすることが出来る。言語指定　必須要素⓶-->
+
+    <head><!--ホームページには表示されないけど必要な情報を書くところ-->
+        <meta charset="utf-8"><!--metaタグを使用して検索エンジンに情報を渡す。文字化けを防ごうという狙い　文字コードの宣言　必須要素⓷-->
+        <title>CSSアニメーション</title><!--WEBページのタイトル　必須要素⓸-->
+        <link rel="stylesheet" href="css/button.css"><!--CSSファイルと連携するための記載方法　須要素⓹ -->
+
+    </head><!--htmlタグの中でタグが開始と終了で完結している＝『入れ子の関係』という。<body>タグも同様 -->
+
+    <body><!--ホームページの内容を書くところ-->
+
+        <div class="container">
+            <div class="header-menu">
+                <div class="return">
+                    <a href="index.html"><img src="img/return.png"></a>
+                </div>
+
+                <div class="text">
+                    <h1>Masato Nakahata</h1>
+                </div>
+            </div>
+        </div>
+<!--header画像はコンテナーで囲まないで全体に表示してあげたい。-->
+        <div class="header_img">
+            <img src="img/Seika02_header.png">
+            <p class="on_text">成果物02 ~ボタン~</p>
+        </div>
+            
+        </div>
+
+        <div class="container">
+            <div class="container-08">
+                <h1>⓵カーソルを合わせると<br>下線がゆっくり引かれる仕組み</h1>
+                <div class="test08">   
+                    <ul>
+                        <li>カーソルを合わせると？</li>
+                        <li>線がゆっくりひかれるよ！</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="container-09">
+                <h1>⓶押すとボタンのデザインが<br>変化する仕組み</h1>
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-------過去学習-------------------------------------->
+            <div class="container11">
+                <h1>過去学習メモ</h1>
+                    <div id="btn">こちらをくりっく</div>
+
+                    <div id="cont">
+                        <div class="on">
+
+                            <h1>▽CSSアニメーション マウスカーソルを重ねると色が変わるよ！</h1>
+
+                            <div class="test01"></div>
+                    
+                            <h1>▽CSSアニメーション　要素の移動 X軸 translateX(100px)</h1>
+                    
+                            <div class="test02-1"></div>
+                    
+                            <h1>▽CSSアニメーション　要素の移動 Y軸 translateY(100px)</h1>
+                    
+                            <div class="test02-2"></div>
+                    
+                            <h1>▽CSSアニメーション　要素の移動 任意の箇所へ移動 translate(100px,100px)</h1>
+                    
+                            <div class="test02-3"></div>
+                    
+                            <h1>▽CSSアニメーション　要素の大きさを変える  scale(2,3) </h1>
+                    
+                            <div class="test02-4"></div>
+                     
+                            <h1>▽CSSアニメーション　要素を回転させる rotate(240deg)</h1>
+                    
+                            <div class="test02-5"></div>
+                    
+                            <h1>▽CSSアニメーション scaleの使い方 左上（top left)を起点に大きくする。　</h1>
+                    
+                            <div class="test03"></div>
+                    
+                            <h1>▽CSSアニメーション 複数の要素を同時にアニメーションにする方法　</h1>
+                    
+                            <div class="test04"></div>
+                    
+                            <h1>▽CSSアニメーション グラフが伸びるような（？）　</h1>
+                    
+                            <h2>transition-timing-function: ease;　開始時と終了時がゆっくり</h2>
+                            <div class="test05-1"></div>
+                            <h2>transition-timing-function: ease-in;　開始時は遅い、終了時は速い</h2>
+                            <div class="test05-2"></div>
+                            <h2>transition-timing-function: ease-out; 開始時は速い、終了時は遅い</h2>
+                            <div class="test05-3"></div>
+                            <h2>transition-timing-function: ease-in-out; ゆっくりはじまってゆっくり終わる。easeとほぼ同じ</h2>
+                            <div class="test05-4"></div>
+                            <h2>transition-timing-function: ; linear;　等速</h2>
+                            <div class="test05-5"></div>
+                    
+                            <h2>@keyframes をつかって複雑なアニメーションを作る⓵</h2>    
+                            <div class="test06"></div>
+                            
+                            <h2>@keyframes をつかって複雑なアニメーションを作る⓶</h2>    
+                            <div class="test07"></div>
+                            
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            &copy; 2023 Masato Nakahata
+            
+        </footer>
+
+<script src="js/button.js"></script>
+    </body>
+
+    </html> 
+
+
+
+

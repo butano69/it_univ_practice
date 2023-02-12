@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial_scale=1.0">
+        <title>ジャンプ</title>
+        <META http-equiv="Refresh" content="3;URL=smile.html">
+        <!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!--CSSファイル-->
+        <link rel="stylesheet" href="css/smile.css">
+        <!--cdnjs font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://sdk.form.run/js/v2/embed.js"></script>
+        </head>
+
+        <img id="pic" src="img/smile/1.png" width="200" height="200">
+
+        
+
+<script>
+
+'use strict';
+
+const img = ["img/smile/1.png", 
+             "img/smile/2.png", 
+             "img/smile/3.png",
+             "img/smile/4.png",
+             "img/smile/5.png",
+             "img/smile/6.png",
+             "img/smile/7.png",
+             "img/smile/8.png",
+             "img/smile/9.png",
+             "img/smile/10.png",
+             "img/smile/11.png",
+             "img/smile/12.png",
+             "img/smile/13.png",
+             "img/smile/14.png",
+             "img/smile/15.png",
+             "img/smile/16.png",
+            ];
+
+let count = -1;
+
+picChange(); // 関数を実行
+
+function picChange() {
+
+  count++;
+
+  // カウントが最大になれば配列を初期値に戻すため「0」を指定する
+  if (count == img.length) count = 0;
+
+  // 画像選択
+  document.getElementById("pic").src = img[count];
+
+  // 1秒ごとに実行
+  setTimeout("picChange()", 1000);
+
+}
+
+</script>
+
+</html>
