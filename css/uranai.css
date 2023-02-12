@@ -1,0 +1,88 @@
+/* 共通 */
+a{
+    color: #000000;
+    text-decoration: underline;
+}
+
+img{
+    max-width: 100%;
+    border:1px solid #d8d8d8;
+}
+
+.container{
+    width:75%;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
+h1{
+    margin: 20 auto;
+    letter-spacing:4px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+
+/* header */
+
+.header_img{
+    padding-top: 10px;
+}
+
+.on_text{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight:bold;
+}
+
+/*占いゲームの詳細*/
+
+.uranai{
+    text-align: center;
+    border:solid black;
+}
+
+#btn{
+    width: 300px;
+    height:70px;
+    line-height: 60px;
+    margin: 20px auto;
+    background-color: rgb(118, 118, 118);
+    color:#fff;
+    font-size: 50px;
+    border-radius: 15px;/*角を丸める*/
+    font-weight: bold;
+    user-select: none;/*ユーザーが選択できないようにする*/
+    cursor: pointer;
+    letter-spacing:4px;
+    opacity: 0.7;
+}
+#btn:hover{
+    opacity: 1;
+}
+
+
+p{
+    font-size: 50px;
+    margin: 30px 0px ;
+    letter-spacing:4px;
+}
+
+#resolt{
+    font-size: 60px;
+    font-weight:bold;
+}
+
+/*------------------------------
+footer
+-------------------------------*/
+footer{
+    margin-top: 20px;
+    text-align: center;
+    border-top:1px solid #dee7ec;
+}
+
+
